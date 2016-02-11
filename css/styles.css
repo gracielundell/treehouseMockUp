@@ -4,6 +4,10 @@
   overflow: auto;
 }
 
+#wrapper {
+  height: 900px;
+}
+
 header h1 {
   float: left;
 }
@@ -18,17 +22,33 @@ header img {
   width: 500px;
   height: 350px;
   float: left;
-  margin: 50px;
+  margin: 15px;
   box-shadow: 0px 2px 0px #DFE1E2;
 }
 
 button {
   margin-left: 20px;
+  font-size: 17px;
+  font-family: "Nunito", sans-serif;
+  border-radius: 25px;;
 }
 
 .card h4, h2, p{
   padding: 0px 20px;
 }
+.card h2 {
+  color: #4D585A;
+}
+
+.card p {
+  color: #7C8B8E;
+  font-weight: 300;
+}
+
+.card h2 {
+  margin-top: 2px;
+}
+
 .topBar {
   overflow: auto;
   color: white;
@@ -36,7 +56,10 @@ button {
   border-radius: 5px 5px 0 0;
   font-size: 12px;
 }
-
+h4 {
+  color: #7B8B8E;
+  margin: 20px 0 0 0;
+}
 h5, i {
   margin: 0px;
 }
@@ -58,6 +81,10 @@ i {
 .fa-circle-o {
   margin-top: 6px;
   opacity: .5;
+}
+
+#java, #woo {
+  margin-left: 30px;
 }
 
 #java .topBar {
