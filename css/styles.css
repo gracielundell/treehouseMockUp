@@ -2,10 +2,7 @@
   background-color: #EDEFF0;
   font-family: "Nunito", sans-serif;
   overflow: auto;
-}
-
-#wrapper {
-  height: 900px;
+  border-bottom: 2px solid #DFE1E2;
 }
 
 header h1 {
@@ -13,12 +10,16 @@ header h1 {
 }
 
 header {
-  box-shadow: 0px 3px 0px #DBDDDE;
+  box-shadow: 0px 3px 0px #EDEFF0;
   margin: 30px;
 }
 
 header img {
   float: right;
+}
+
+body {
+  background-color: #EDEFF0;
 }
 
 .card {
@@ -59,6 +60,26 @@ button {
 .star-btn {
   padding-left: 10px;
   margin-right: 20px;
+}
+
+#java .star-btn:hover, #javaFX .star-btn:hover {
+  color: #2C9676;
+  border-color: #2C9676;
+}
+
+#java .play-btn:hover, #javaFX .play-btn:hover {
+  color: #2C9676;
+  border-color: #2C9676;
+}
+
+#woo .star-btn:hover, #woo .play-btn:hover {
+  color: #838CC7;
+  border-color: #838CC7;
+}
+
+#django .star-btn:hover, #django .play-btn:hover {
+  color: #F092B0;
+  border-color: #F092B0;
 }
 
 .play-btn {
