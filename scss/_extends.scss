@@ -1,0 +1,25 @@
+%cardPadding {
+  padding: 0px 20px;
+}
+
+%iconButtons {
+  color: darken($background-color, 15%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-right: 25px;
+  padding-left: 14px;
+  padding-top: 10px;
+  float: right;
+}
+
+%buttonStyles {
+  margin: 0 -20px 0 20px;
+  font-family: #{$stack-nunito}, sans-serif;
+  border-radius: 25px;
+  background-color: $white;
+  box-shadow: none;
+  border: 2px solid $background-color;
+  padding: 8px 15px;
+  vertical-align: middle;
+}

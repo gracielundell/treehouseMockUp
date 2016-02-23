@@ -1,12 +1,12 @@
 #wrapper, header {
-  background-color: #EDEFF0;
-  font-family: "Nunito", sans-serif;
+  background-color: $background-color;
+  font-family: #{$stack-nunito}, sans-serif;
   overflow: auto;
-  border-bottom: 2px solid #DFE1E2;
+  border-bottom: 2px solid $header-bottom-color;
 }
 
 header {
-  box-shadow: 0px 3px 0px #EDEFF0;
+  box-shadow: 0px 3px 0px $background-color;
   margin: 30px;
   h1 {
     float: left;

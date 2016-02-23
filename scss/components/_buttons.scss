@@ -1,0 +1,61 @@
+.intermediate {
+  @include buttonStyles2;
+  &:hover {
+    @include faHover($course-title-color)
+  }
+}
+
+.star-btn {
+  @extend %iconButtons;
+  @include buttonStyles2;
+  padding-left: 10px;
+  margin-right: 20px;
+  #django &:hover {
+    @include faHover($pink);
+  }
+  .java &:hover {
+    @include faHover($green);
+  }
+  #woo &:hover {
+    @include faHover($purple);
+  }
+}
+
+.play-btn {
+  @extend %iconButtons;
+  @include buttonStyles2;
+  margin-right: -15px;
+  #django &:hover {
+    @include faHover($pink);
+  }
+  .java &:hover {
+    @include faHover($green);
+  }
+  #woo &:hover {
+    @include faHover($purple);
+  }
+}
+
+.java-btn {
+  @include buttonStyles2;
+  color: $green;
+  &:hover {
+    @include faHover($green);
+  }
+}
+
+#wordpress-btn {
+  @include buttonStyles2;
+  color: $purple;
+  &:hover {
+    @include faHover($purple);
+  }
+}
+
+#python-btn {
+  @include buttonStyles2;
+  color: $pink;
+  &:hover {
+    @include faHover($pink);
+  }
+}

@@ -1,0 +1,163 @@
+.card h4, .card h2, .card p {
+  padding: 0px 20px; }
+
+.star-btn, .play-btn {
+  color: #c3cacd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-right: 25px;
+  padding-left: 14px;
+  padding-top: 10px;
+  float: right; }
+
+.intermediate, .star-btn, .play-btn, .java-btn, #wordpress-btn, #python-btn {
+  margin: 0 -20px 0 20px;
+  font-family: Nunito, sans-serif;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: none;
+  border: 2px solid #EDEFF0;
+  padding: 8px 15px;
+  vertical-align: middle; }
+
+body {
+  background-color: #EDEFF0; }
+
+h4 {
+  color: #7B8B8E;
+  margin: 20px 0 0 0; }
+
+i {
+  margin: 0px; }
+
+h5 {
+  float: right;
+  font-size: 13px;
+  margin: 3px 0 0 0; }
+
+.intermediate {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8B8E; }
+  .intermediate:hover {
+    color: #4D585A;
+    border-color: #4D585A; }
+
+.star-btn {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8B8E;
+  padding-left: 10px;
+  margin-right: 20px; }
+  #django .star-btn:hover {
+    color: #F092B0;
+    border-color: #F092B0; }
+  .java .star-btn:hover {
+    color: #2C9676;
+    border-color: #2C9676; }
+  #woo .star-btn:hover {
+    color: #838CC7;
+    border-color: #838CC7; }
+
+.play-btn {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8B8E;
+  margin-right: -15px; }
+  #django .play-btn:hover {
+    color: #F092B0;
+    border-color: #F092B0; }
+  .java .play-btn:hover {
+    color: #2C9676;
+    border-color: #2C9676; }
+  #woo .play-btn:hover {
+    color: #838CC7;
+    border-color: #838CC7; }
+
+.java-btn {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8B8E;
+  color: #2C9676; }
+  .java-btn:hover {
+    color: #2C9676;
+    border-color: #2C9676; }
+
+#wordpress-btn {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8B8E;
+  color: #838CC7; }
+  #wordpress-btn:hover {
+    color: #838CC7;
+    border-color: #838CC7; }
+
+#python-btn {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8B8E;
+  color: #F092B0; }
+  #python-btn:hover {
+    color: #F092B0;
+    border-color: #F092B0; }
+
+i {
+  float: left;
+  margin-right: 10px; }
+
+.fa-book {
+  padding-right: 10px; }
+
+.fa-circle-o {
+  margin-top: 6px;
+  opacity: .5; }
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  width: 500px;
+  height: 350px;
+  float: left;
+  margin: 15px;
+  box-shadow: 0px 2px 0px #DFE1E2; }
+  .card h2 {
+    color: #4D585A; }
+  .card p {
+    color: #7B8B8E;
+    font-weight: 300; }
+
+.java, #woo {
+  margin-left: 30px; }
+
+.java .topBar {
+  background-color: #2C9676; }
+
+#django .topBar {
+  background-color: #F092B0; }
+
+#woo .topBar {
+  background-color: #838CC7; }
+
+.topBar {
+  font-size: 12px;
+  color: white;
+  overflow: auto;
+  padding: 20px;
+  border-radius: 5px 5px 0 0; }
+
+#wrapper, header {
+  background-color: #EDEFF0;
+  font-family: Nunito, sans-serif;
+  overflow: auto;
+  border-bottom: 2px solid #DFE1E2; }
+
+header {
+  box-shadow: 0px 3px 0px #EDEFF0;
+  margin: 30px; }
+  header h1 {
+    float: left; }
+  header img {
+    float: right; }
+
+/*# sourceMappingURL=application.css.map */
