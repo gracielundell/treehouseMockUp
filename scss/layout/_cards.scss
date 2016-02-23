@@ -1,0 +1,57 @@
+.card {
+  background-color: white;
+  border-radius: 5px;
+  width: 500px;
+  height: 350px;
+  float: left;
+  margin: 15px;
+  box-shadow: 0px 2px 0px #DFE1E2;
+}
+
+.card h4, h2, p{
+  padding: 0px 20px;
+}
+
+.card h2 {
+  color: #4D585A;
+}
+
+.card p {
+  color: #7C8B8E;
+  font-weight: 300;
+}
+
+.card h2 {
+  margin-top: 2px;
+}
+
+#java, #woo {
+  margin-left: 30px;
+}
+
+#java .topBar {
+  background-color: #2C9676;
+}
+
+#django .topBar {
+  background-color: #F092B0;
+}
+
+
+#woo .topBar {
+  background-color: #838CC7;
+}
+
+
+
+#javaFX .topBar {
+  background-color: #2C9676;
+}
+
+.topBar {
+  overflow: auto;
+  color: white;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+  font-size: 12px;
+}
