@@ -5,15 +5,13 @@
   border-bottom: 2px solid #DFE1E2;
 }
 
-header h1 {
-  float: left;
-}
-
 header {
   box-shadow: 0px 3px 0px #EDEFF0;
   margin: 30px;
-}
-
-header img {
-  float: right;
+  h1 {
+    float: left;
+  }
+  img {
+    float: right;
+  }
 }
